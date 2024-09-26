@@ -55,3 +55,8 @@ Each iteration of IDS generates a new level, but BFS does this by storing all no
 
 #### When do we use IDS? 
 It is the preferred uninformed search method when search state space is larger than can fit in memory and depth of the solution is not known. 
+
+### The idea of search contours
+- It allows you to visualize how a search 'expands' outwards. 
+- For djikstra, the contours will be 'circular' around the start state. 
+- For A* search with a good heuristic, the g+h bands will stretch toward a goal state. 
